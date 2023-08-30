@@ -1,0 +1,13 @@
+C:\Git_Repositories\Area_of_Geometric_Figures\Tools_For_Translation\bin\Debug\Tools_For_Translation.dll
+C:\Git_Repositories\Area_of_Geometric_Figures\Tools_For_Translation\bin\Debug\Tools_For_Translation.pdb
+C:\Git_Repositories\Area_of_Geometric_Figures\Tools_For_Translation\obj\Debug\Tools_For_Translation.csproj.AssemblyReference.cache
+C:\Git_Repositories\Area_of_Geometric_Figures\Tools_For_Translation\obj\Debug\Tools_For_Translation.csproj.CoreCompileInputs.cache
+C:\Git_Repositories\Area_of_Geometric_Figures\Tools_For_Translation\obj\Debug\Tools_For_Translation.dll
+C:\Git_Repositories\Area_of_Geometric_Figures\Tools_For_Translation\obj\Debug\Tools_For_Translation.pdb
+C:\Users\ZENY\Desktop\Area_of_Geometric_Figures(local)\Tools_For_Translation\bin\Debug\Tools_For_Translation.dll
+C:\Users\ZENY\Desktop\Area_of_Geometric_Figures(local)\Tools_For_Translation\bin\Debug\Tools_For_Translation.pdb
+C:\Users\ZENY\Desktop\Area_of_Geometric_Figures(local)\Tools_For_Translation\obj\Debug\Tools_For_Translation.csproj.AssemblyReference.cache
+C:\Users\ZENY\Desktop\Area_of_Geometric_Figures(local)\Tools_For_Translation\obj\Debug\Tools_For_Translation.csproj.CoreCompileInputs.cache
+C:\Users\ZENY\Desktop\Area_of_Geometric_Figures(local)\Tools_For_Translation\obj\Debug\Tools_For_Translation.dll
+C:\Users\ZENY\Desktop\Area_of_Geometric_Figures(local)\Tools_For_Translation\obj\Debug\Tools_For_Translation.pdb
+C:\Users\ZENY\Desktop\Area_of_Geometric_Figures(local)\Tools_For_Translation\bin\Debug\Tools_For_Translation.xml

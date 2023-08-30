@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="Tools_For_Translation">
+      <assemblydata version="1.0.0.0" culture="" key="" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1.0.0.0</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:Tools_For_Translation">
+      <topicdata group="api" />
+      <apidata name="Tools_For_Translation" group="namespace" />
+      <elements>
+        <element api="T:Tools_For_Translation.Tool" />
+      </elements>
+      <file name="15e7a472-cfff-993c-84aa-f7b2094ff7f4" />
+    </api>
+    <api id="T:Tools_For_Translation.Tool">
+      <topicdata group="api" />
+      <apidata name="Tool" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Tools_For_Translation.Tool.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Tools_For_Translation.Tool.#ctor" />
+        <element api="M:Tools_For_Translation.Tool.check_input(System.String)" />
+        <element api="M:Tools_For_Translation.Tool.ToCm(System.String)" />
+        <element api="M:Tools_For_Translation.Tool.ToInch(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="Tools_For_Translation" module="Tools_For_Translation" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Tools_For_Translation" />
+      </containers>
+      <file name="aaae88c9-d6f3-0e8d-d71d-23a3ba06b2c3" />
+    </api>
+    <api id="Methods.T:Tools_For_Translation.Tool">
+      <topicdata name="Tool" group="list" subgroup="Methods" typeTopicId="T:Tools_For_Translation.Tool" />
+      <apidata name="Tool" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Tools_For_Translation.Tool.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)">
+          <apidata name="Equals" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <parameters>
+            <parameter name="obj">
+              <type api="T:System.Object" ref="true" />
+            </parameter>
+          </parameters>
+          <returns>
+            <type api="T:System.Boolean" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.Finalize">
+          <apidata name="Finalize" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="true" />
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetHashCode">
+          <apidata name="GetHashCode" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.Int32" ref="false" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.GetType">
+          <apidata name="GetType" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Type" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.MemberwiseClone">
+          <apidata name="MemberwiseClone" group="member" subgroup="method" />
+          <memberdata visibility="family" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Object" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Object.ToString">
+          <apidata name="ToString" group="member" subgroup="method" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="true" />
+          <returns>
+            <type api="T:System.String" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System" />
+            <type api="T:System.Object" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Tools_For_Translation.Tool.check_input(System.String)" />
+        <element api="M:Tools_For_Translation.Tool.ToCm(System.String)" />
+        <element api="M:Tools_For_Translation.Tool.ToInch(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="Tools_For_Translation" module="Tools_For_Translation" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+        </library>
+        <namespace api="N:Tools_For_Translation" />
+        <type api="T:Tools_For_Translation.Tool" />
+      </containers>
+      <file name="0dfd1a7c-cbbc-e1cb-99f3-1d29b056560f" />
+    </api>
+    <api id="M:Tools_For_Translation.Tool.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="Tools_For_Translation" module="Tools_For_Translation" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Tools_For_Translation" />
+        <type api="T:Tools_For_Translation.Tool" ref="true" />
+      </containers>
+      <file name="f4cee63e-8c80-b2db-be2b-ea5d80d015fe" />
+    </api>
+    <api id="M:Tools_For_Translation.Tool.check_input(System.String)">
+      <topicdata group="api" />
+      <apidata name="check_input" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="input">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Tools_For_Translation" module="Tools_For_Translation" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Tools_For_Translation" />
+        <type api="T:Tools_For_Translation.Tool" ref="true" />
+      </containers>
+      <file name="2cf16b22-e3f0-3ac5-084b-9418a5a0f1fe" />
+    </api>
+    <api id="M:Tools_For_Translation.Tool.ToCm(System.String)">
+      <topicdata group="api" />
+      <apidata name="ToCm" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="data">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Tools_For_Translation" module="Tools_For_Translation" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Tools_For_Translation" />
+        <type api="T:Tools_For_Translation.Tool" ref="true" />
+      </containers>
+      <file name="a614f8ff-ab29-cf26-2e4f-7d90b9a75679" />
+    </api>
+    <api id="M:Tools_For_Translation.Tool.ToInch(System.String)">
+      <topicdata group="api" />
+      <apidata name="ToInch" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="data">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Tools_For_Translation" module="Tools_For_Translation" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="1.0.0.0 (1.0.0.0)" />
+          <noAptca />
+        </library>
+        <namespace api="N:Tools_For_Translation" />
+        <type api="T:Tools_For_Translation.Tool" ref="true" />
+      </containers>
+      <file name="270f6b58-c5be-c80b-959c-8d42cf155c70" />
+    </api>
+  </apis>
+</reflection>

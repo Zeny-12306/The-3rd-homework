@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Tools_For_Translation</name>
+  </assembly>
+  <members>
+    <member name="T:Tools_For_Translation.Tool">
+      <summary>
+            The main Basic Tool class. Contains methods for input detection and unit conversion functions.
+            <list type="number"><item><term>Check_Input</term><description>Ensure the input is valid</description></item><item><term>ToInch</term><description>Convert centimeters to inches</description></item><item><term>ToCm</term><description>Convert inches to centimeters</description></item></list></summary>
+    </member>
+    <member name="M:Tools_For_Translation.Tool.check_input(System.String)">
+      <summary>
+            Determine if the input is valid and returns true or false.
+            Input is valid when it contains only numbers, ','(separators), less than ONE '.'(decimal points).
+            </summary>
+      <param name="input">The input string</param>
+      <example>
+        <code>
+            bool flag = Tool.check_input(a.text); //a.text类型为字符串
+            if (!flag)
+            {
+                Console.WriteLine("Input is invalid!");
+             }
+            </code>
+      </example>
+      <returns>Valid or not</returns>
+    </member>
+    <member name="M:Tools_For_Translation.Tool.ToInch(System.String)">
+      <summary>
+            Convert centimeters to inches
+            </summary>
+      <param name="data">The data in centimeter units(of string type)</param>
+      <example>
+        <code>
+            string Length = "1.0";
+            Length = ToInch(Length);
+            </code>
+            Length = 0.393
+            </example>
+      <returns>The data in inch units(of string type)</returns>
+    </member>
+    <member name="M:Tools_For_Translation.Tool.ToCm(System.String)">
+      <summary>
+            Convert inches to centimeters
+            </summary>
+      <param name="data">The data in inch units(of string type)</param>
+      <example>
+        <code>
+            string Length = "1.0";
+            Length = ToCm(Length);
+            </code>
+            Length = 2.545
+            </example>
+      <returns>The data in centimeter units(of string type)</returns>
+    </member>
+    <member name="N:Tools_For_Translation">
+      <summary> </summary>
+    </member>
+  </members>
+</doc>

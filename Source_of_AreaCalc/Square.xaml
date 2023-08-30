@@ -1,0 +1,27 @@
+﻿<Page x:Class="AeraCalc.Square"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:AeraCalc"
+        Title="Second Page" Height="450" Width="800">
+    <Grid>
+        <Button Content="计算面积" Click="Getanswer" HorizontalAlignment="Left" Height="40" Margin="150,280,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button Content="清空" Click="Clear_Click" HorizontalAlignment="Left" Height="40" Margin="100,350,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button Content="返回" Click="Return_Click" HorizontalAlignment="Left" Height="40" Margin="500,350,0,0" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="area" HorizontalAlignment="Left" Height="40" Margin="374,280,0,0" TextWrapping="Wrap" Text="面积" VerticalAlignment="Top" Width="276" BorderBrush="#FF4973F1" FontSize="18" BorderThickness="3,3,3,3"/>
+        <TextBox x:Name="a" HorizontalAlignment="Left" Height="41" Margin="477,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="184" BorderBrush="#FF4973F1" FontSize="18" BorderThickness="3,3,3,3"/>
+        <Label Content="边长a:" HorizontalAlignment="Left" Height="41" Margin="351,137,0,0" VerticalAlignment="Top" Width="91" FontSize="18"/>
+        <Label Content="请输入数据：" HorizontalAlignment="Left" Height="38" Margin="351,69,0,0" VerticalAlignment="Top" Width="310" FontSize="18"/>
+        <local:CustomSquare  HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="50"/>
+        <Label x:Name="label1" Content="cm" HorizontalAlignment="Left" Height="41" Margin="666,137,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label x:Name="label2" Content="c㎡" HorizontalAlignment="Left" Height="40" Margin="661,280,0,0" VerticalAlignment="Top" Width="83"/>
+        <Menu x:Name="unit" HorizontalAlignment="Left" Height="40" Margin="650,10,0,0" VerticalAlignment="Top" Width="140">
+            <MenuItem Header="单位制" Height="40" Width="140">
+                <MenuItem Header="cm(厘米)" Click="ToCm_Click" />
+                <Separator />
+                <MenuItem Header="inch(英寸)" Click="ToInch_Click" />
+                <Separator />
+            </MenuItem>
+
+        </Menu>
+    </Grid>
+</Page>
